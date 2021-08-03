@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Training_JetPack">
         <activity
+            android:name=".room.RoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".viewmodel.ViewModelActivity"
             android:exported="true" />
         <activity android:name=".livedata.LiveDataActivity" />
